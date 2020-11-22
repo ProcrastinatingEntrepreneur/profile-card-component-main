@@ -1,0 +1,26 @@
+.main-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.profile-card {
+        margin: auto;
+        width: 50%;
+        height: 250px;
+}
+
+.profile-pic {
+        width: 75px;
+        max-width: 100%;
+        border-radius: 50%;
+        
+}
+
+.age {
+      align-self: flex-start;  
+}
+
+.username {
+        font-size: 18px;
+}
