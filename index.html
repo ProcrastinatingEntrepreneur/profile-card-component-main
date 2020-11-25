@@ -4,34 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" type"text/css" href="/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <section class="main-card">
     <div class="profile-card">
-      <img src="/images/image-victor.jpg" class="profile-pic">
-      <h1 class="username">Victor </h1>
-      <h3 class="age">26</h3>
-      <h4 class="location">London</h4>  
-        <h1>Test</h1>
-      <h3>80k</h3>
-      <h4>Followers</h4>
       
-      <h3>803k</h3>
-      <h4>Likes</h4>
-      
-      <h3>1.4k</h3>
-      <h4>Photos</h4>
-        <div class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
-        </div>
+      <div class="upper-card">
+        <img src="images/image-victor.jpg" class="profile-pic">
       </div>
+      
+      <div class="middle-card">
+        <h1 class="username">Victor Crest</h1>
+        <h3 class="age">26</h3>  
+      </div>
+
+      <h4 class="location">London</h4> 
+
+      <div class="lower-card"> 
+
+        <div class="follower-flex">
+          <h6 class="center fontSize">80k</h3>
+          <h5 class="center">Followers</h4>
+        </div>
+
+        <div class="like-flex">
+          <h6 class="center fontSize">803k</h3>
+          <h5 class="center">Likes</h4>
+        </div>
+            
+        <div class="photo-flex">
+          <h6 class="center fontSize">1.4k</h3>
+          <h5 class="center">Photos</h4>
+        </div>
+
+      </div>
+
+    </div>
   </section>
+
+    <div class="attribution">
+        <!--<p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Your Name Here</a>.</p> -->
+    </div>
 </body>
 </html>
